@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -prints the sixe of various types based on 
+ * main -prints the sixe of various types based on
  * the computer it is compiled and run on.
  * Return: Always 0.
  *
