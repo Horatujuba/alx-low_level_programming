@@ -1,22 +1,17 @@
 #include <stdio.h>
 
 /**
- * print_alphabet_v10 - prints alphabet 10 times
- * Return: void
+ * main -Print the alphabetic
+ * Return: Always (Success)
  */
-void print_alphabet_x10(void)
-{char c;
-	int i=0;
-	while (i<10)
-	{
-		c='a';
-		while(c <= 'z')
-		{
-			putchar(c);
-			c++;
-		}
-		putchar('\n');
-		i++;
-	}
+
+int main(void)
+{
+	char c;
+	
+	for(c= 'a'; c <= 'z'; c++)
+	putchar(c);
+	putchar('\n');
+	return (0);
 }
 
