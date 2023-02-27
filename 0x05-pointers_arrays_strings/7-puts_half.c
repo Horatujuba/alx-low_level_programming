@@ -4,7 +4,7 @@
  * puts_half - prints 1/2 of strg
  * @str: z strg 2 printed
  * Return: void
- * */
+ */
 
 void puts_half(char *str)
 
@@ -26,7 +26,7 @@ void puts_half(char *str)
 		k = j / 2;
 	}
 
-	for(; k < j; k++)
+	for (; k < j; k++)
 	{
 		_putchar(str[k]);
 	}
