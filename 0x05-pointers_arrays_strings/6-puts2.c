@@ -1,4 +1,4 @@
-#include "main,h"
+iinclude "main.h"
 
 /**
  * puts2 - print every other char of str
