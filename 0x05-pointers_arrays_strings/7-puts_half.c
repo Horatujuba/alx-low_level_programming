@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
  * puts_half - prints 1/2 of strg
@@ -7,7 +6,7 @@
  * Return: void
  * */
 
-void put_half(char *str)
+void puts_half(char *str)
 
 {
 	int j = 0;
