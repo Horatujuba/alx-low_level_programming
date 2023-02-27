@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 
 /**
  * puts_half - prints 1/2 of strg
