@@ -23,3 +23,7 @@ int _putchar(char c);
 char *_strcpy(char *dest, char *scr);
 
 void print_array(int *a, int n);
+
+int _atoi(char *s);
+
+
