@@ -4,9 +4,13 @@
  * _strncat - conc two str using most
  *
  * an inputter no of bytes from src.
+ *
  * @dest: The string to be appended upon
+ *
  * @src: The string to be appended to dest
+ *
  * @n: The no of bytes from src to be appended to dest
+ *
  * return: A pointer to the reuslt
  */
 
