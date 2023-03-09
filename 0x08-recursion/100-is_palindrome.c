@@ -10,7 +10,7 @@ int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	else 
+	else
 		return (1 + _strlen_recursion(s + 1));
 }
 
@@ -20,7 +20,7 @@ int _strlen_recursion(char *s)
  * @n1: smallest it
  * @n2: biggest it
  * Return: .
- * */
+ */
 
 int comparator(char *s, int n1, int n2)
 {
@@ -44,5 +44,4 @@ int is_palindrome(char *s)
 	if (*s == '\0')
 		return (1);
 	return (comparator(s, 0, _strlen_recursion(s) - 1));
-	
 }
