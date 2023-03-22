@@ -1,5 +1,5 @@
 #include <stdio.h>
-	#include <stdlib.h>
+#include <stdlib.h>
 
 
 	/**
@@ -33,7 +33,6 @@
 
 
 		arr = (char *)main;
-
 
 		for (i = 0; i < bytes; i++)
 		{
