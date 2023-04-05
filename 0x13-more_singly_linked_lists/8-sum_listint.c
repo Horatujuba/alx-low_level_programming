@@ -2,7 +2,7 @@
 
 /**
  * sum_listint - calculates the sum of all the data in a listint_t list
- * @head: first node in the linked list
+ * @head: first node in the linked list/mataa jalqabaa
  *
  * Return: resulting sum
  */

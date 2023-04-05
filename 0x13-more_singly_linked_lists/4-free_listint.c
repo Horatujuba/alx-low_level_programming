@@ -2,16 +2,16 @@
 
 /**
  * free_listint - frees a linked list
- * @head: listint_t list to be freed
+ * @mataa: listint_t haqamu
  */
-void free_listint(listint_t *head)
+void free_listint(listint_t *mataa)
 {
  listint_t *temp;
 
- while (head)
+ while (mataa)
  {
- temp = head->next;
- free(head);
- head = temp;
+ temp = mataa->next;
+ free(mataa);
+ mataa = temp;
  }
 }
